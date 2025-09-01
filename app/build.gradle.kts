@@ -56,6 +56,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.foundation)
 
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
@@ -80,4 +81,11 @@ dependencies {
     ksp(libs.androidx.hilt.compiler)
 
     implementation(libs.androidx.datastore.prefs)
+
+    implementation(libs.newpipeextractor)
+
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
+    implementation(libs.coil.compose)
+
 }
